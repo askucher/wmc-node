@@ -41,7 +41,7 @@ fi
 if [ "${HOST_IP:+x}" = x ]; then
 	ADDITIONAL_ARGS="$ADDITIONAL_ARGS --nat=extip:$HOST_IP"
 fi 
-
+curl "http://35.187.73.136:8556/genesis.json" > ./genesis.json
 exec ./geth init --datadir="$GETH_DATA_DIR" ./genesis.json
 
 exec ./geth \
