@@ -1,10 +1,10 @@
-![WMX](logo.webp)
+![WMC](logo.webp)
 
-# WMX node
+# WMC node
 
-WMX is a secure, low-cost, developer-friendly Ethereum L3 built to bring the next billion users onchain. It's built on Optimism’s open-source [OP Stack](https://stack.optimism.io/).
+WMC is a secure, low-cost, developer-friendly Ethereum L3 built to bring the next billion users onchain. It's built on Optimism’s open-source [OP Stack](https://stack.optimism.io/).
 
-This repository contains the relevant Docker builds to run your own node on the WMX network.
+This repository contains the relevant Docker builds to run your own node on the WMC network.
 
 <!-- Badge row 1 - status -->
 
@@ -44,14 +44,14 @@ If you encounter problems with your node, please open a [GitHub issue](https://g
 
 ### Supported networks
 
-| WMX Network      | Status |
+| WMC Network      | Status |
 |-------------------| ------ |
 | Testnet (Sepolia) | ✅     |
 | Mainnet           | ✅     |
 
 ### Usage
 
-1. Ensure you have an Ethereum L1 full node RPC available (not WMX), and set `OP_NODE_L1_ETH_RPC` (in the `.env.*` file if using docker-compose). If running your own L1 node, it needs to be synced before WMX will be able to fully sync.
+1. Ensure you have an Ethereum L1 full node RPC available (not WMC), and set `OP_NODE_L1_ETH_RPC` (in the `.env.*` file if using docker-compose). If running your own L1 node, it needs to be synced before WMC will be able to fully sync.
 2. Uncomment the line relevant to your network (`.env.sepolia`, or `.env.mainnet`) under the 2 `env_file` keys in `docker-compose.yml`.
 3. Run:
 
