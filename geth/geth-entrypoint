@@ -42,6 +42,8 @@ if [ "${HOST_IP:+x}" = x ]; then
 	ADDITIONAL_ARGS="$ADDITIONAL_ARGS --nat=extip:$HOST_IP"
 fi 
 
+exec ./geth init --datadir="$GETH_DATA_DIR" ./genesis.json
+
 exec ./geth \
     --datadir="$GETH_DATA_DIR" \
     --verbosity="$VERBOSITY" \
@@ -68,7 +70,6 @@ exec ./geth \
     --maxpeers=100 \
     --rollup.sequencerhttp="$OP_GETH_SEQUENCER_HTTP" \
     --rollup.halt=major \
-    --op-network="$OP_NODE_NETWORK" \
     --port="$P2P_PORT" \
     --rollup.disabletxpoolgossip=true \
     $ADDITIONAL_ARGS # intentionally unquoted
