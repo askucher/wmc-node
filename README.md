@@ -89,7 +89,7 @@ docker run --env-file .env.sepolia -e OP_NODE_L2_ENGINE_RPC=ws://localhost:8551 
 
 ### Snapshots
 
-You can fetch the latest snapshots via the URLs provided in the [WMC docs](#).
+You can fetch the latest snapshots via the URLs provided in the [WMC docs](https://docs.worldmobilelabs.com/).
 
 ### Syncing
 
