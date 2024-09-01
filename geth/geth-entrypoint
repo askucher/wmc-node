@@ -13,10 +13,10 @@ ADDITIONAL_ARGS=""
 OP_GETH_GCMODE="${OP_GETH_GCMODE:-full}"
 OP_GETH_SYNCMODE="${OP_GETH_SYNCMODE:-full}"
 
-if [[ -z "$OP_NODE_NETWORK" ]]; then
-    echo "expected OP_NODE_NETWORK to be set" 1>&2
-    exit 1
-fi
+#if [[ -z "$OP_NODE_NETWORK" ]]; then
+#    echo "expected OP_NODE_NETWORK to be set" 1>&2
+#    exit 1
+#fi
 
 mkdir -p $GETH_DATA_DIR
 
