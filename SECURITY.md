@@ -2,37 +2,20 @@
 
 ## Bug bounty program
 
-In line with our strategy of being the safest way for users to access crypto:
+As part of our commitment to being the safest way for users to access decentralized services:
 
-+ Coinbase will be extending our [best-in-industry][1] million-dollar [HackerOne bug bounty program][2]
-to cover the Base network, the Base bridge contracts, and Base infrastructure.
+- WMC is extending its top-tier million-dollar HackerOne bug bounty program to cover the WMC network, the WMC bridge contracts, and WMC infrastructure.
+- WMC will collaborate closely with OP Labs to enhance the security guarantees of Bedrock and expedite the implementation of decentralized fault-proofs on the [OP Stack](https://stack.optimism.io/).
+- WMC's bug bounty program will operate in parallel with Optimism's existing Immunefi Bedrock bounty program to support the open-source [Bedrock](https://stack.optimism.io/docs/releases/bedrock/) OP Stack framework.
 
-+ Coinbase will be working in tandem with OP Labs to harden the security
-guarantees of Bedrock and accelerate the timeline for decentralized
-fault-proofs on the [OP Stack][3].
-
-+ Coinbase's bug bounty program will run alongside Optimism's existing [Immunefi Bedrock bounty program][4]
-to support the open source [Bedrock][5] OP Stack framework.
+---
 
 ## Reporting vulnerabilities
 
-All potential vulnerability reports can be submitted via the [HackerOne][6]
-platform.
+Potential vulnerabilities can be reported through the [HackerOne](https://hackerone.com/WMC) platform.
 
-The HackerOne platform allows us to have a centralized and single reporting
-source for us to deliver optimized SLA's and results. All reports submitted to
-the platform are triaged around the clock by our team of Coinbase engineers
-with domain knowledge, assuring the best quality of review.
+Using HackerOne allows us to consolidate all reports into a single, streamlined system, ensuring efficient response times and effective resolutions. Every submission is reviewed 24/7 by our dedicated WMC engineering team, who possess deep expertise in the relevant domains, guaranteeing a thorough and accurate assessment.
 
-For more information on reporting vulnerabilities and our HackerOne bug bounty
-program, view our [security program policies][7].
 
-[1]: https://www.coinbase.com/blog/celebrating-10-years-of-our-bug-bounty-program
-[2]: https://hackerone.com/coinbase?type=team 
-[3]: https://stack.optimism.io/
-[4]: https://immunefi.com/bounty/optimism/
-[5]: https://stack.optimism.io/docs/releases/bedrock/
-[6]: https://hackerone.com/coinbase
-[7]: https://hackerone.com/coinbase?view_policy=true
 
 
